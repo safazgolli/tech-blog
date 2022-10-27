@@ -1,0 +1,19 @@
+[
+  { "post_id": 1,
+    "comment_text": "Nunc rhoncus dui vel sem.",
+    "user_id": 1
+  
+  },
+  {
+    "post_id": 2,
+    "comment_text": "ihrfjrgerfregrj3r f3ruh43 lkjf sem.",
+    "user_id": 2
+  
+  },
+  {
+    "post_id": 3,
+    "comment_text": "Ynndnc rhojdhds djenvel sem.",
+    "user_id": 3
+  
+  }
+]
