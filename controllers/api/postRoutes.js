@@ -4,6 +4,7 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
   try {
+  console.log(req.body);
     const newPost = await Post.create({
       ...req.body,
       user_id: req.session.user_id,
@@ -21,7 +22,6 @@ router.delete('/:id', withAuth, async (req, res) => {
     const postData = await Post.destroy({
       where: {
         id: req.params.id,
-        user_id: req.session.user_id,
       },
     });
 

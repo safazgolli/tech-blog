@@ -1,5 +1,5 @@
 <!-- Loop over each object in the projects array -->
-{{#if posts.length}}
+{{#if posts}}
 <ol class="post-list">
   {{#each posts as |post|}}
   <li>
@@ -10,7 +10,7 @@
     </div>
     <div class="meta">
         
-      Posted By {{post.user.name}} on {{format_date post.date_created}} | 
+      Posted By {{post.user.name}} on {{format_date createdAt}} | 
       <p></p>
     </div>
   </div>
