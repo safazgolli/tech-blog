@@ -29,3 +29,4 @@ If I am idle on the site for more than a set time, I am able to view comments bu
 ![alt text](./public/img/img3.png)
 
 ## Link to the app:
+https://mighty-dawn-62431.herokuapp.com/
